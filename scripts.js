@@ -13,7 +13,7 @@ function printTaskData() {
     var hourEl = hours[i];
     var taskEl = $('<tr>').addClass('row');
   var timeEl = $('<td>').addClass('col-2 hour').text(hourEl);
-  var textArea = $('<textarea style="padding-left:20px" />')
+  var textArea = $('<textarea/>')
   textArea.text('');
   var nowHour = Number(rightNow.split(":")[0]);
   var hourElHour = Number(hourEl.split(":")[0]);
